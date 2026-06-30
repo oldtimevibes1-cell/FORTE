@@ -18,6 +18,8 @@ __pycache__/
 results*/
 /logs/
 *.log
+# but never drop dataset input assets that happen to be .log files
+!/data/assets/**/*.log
 /tmp/
 /analysis/
 
